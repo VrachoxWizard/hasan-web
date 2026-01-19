@@ -40,21 +40,21 @@ export default function ExclusiveVehicleCard({
         {/* Card Frame - Dark Mode (Default) & Light Mode Adaptive */}
         <div className="relative h-full bg-[#0a0a0a] dark:bg-[#050505] border-[3px] border-[#bf953f] rounded-lg overflow-hidden shadow-2xl flex flex-col">
           {/* Inner Gold Border */}
-          <div className="absolute inset-[3px] border border-[#fcf6ba]/30 rounded-[4px] pointer-events-none z-20" />
+          <div className="absolute inset-[3px] border border-[#fcf6ba]/30 rounded-lg pointer-events-none z-20" />
 
           {/* Top Exclusive Banner */}
-          <div className="relative h-10 bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#0a0a0a] border-b border-[#bf953f] flex items-center justify-center z-10">
+          <div className="relative h-10 bg-linear-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#0a0a0a] border-b border-[#bf953f] flex items-center justify-center z-10">
             <div className="flex items-center gap-3 w-full justify-center px-4">
-              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
+              <div className="h-px flex-1 bg-linear-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
               <span className="text-[#bf953f] font-serif tracking-[0.2em] text-xs font-bold uppercase drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">
                 {t("card.exclusive")}
               </span>
-              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
+              <div className="h-px flex-1 bg-linear-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
             </div>
           </div>
 
           {/* Image Container */}
-          <div className="relative aspect-[4/3] w-full overflow-hidden bg-black">
+          <div className="relative aspect-4/3 w-full overflow-hidden bg-black">
             <Image
               src={vozilo.slike[0] || "/placeholder-car.jpg"}
               alt={`${vozilo.marka} ${vozilo.model}`}
@@ -64,13 +64,13 @@ export default function ExclusiveVehicleCard({
               priority={priority}
             />
             {/* Vignette Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40" />
+            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-black/40" />
           </div>
 
           {/* Content Section */}
-          <div className="relative flex-1 flex flex-col items-center text-center p-4 pt-6 bg-gradient-to-b from-[#0a0a0a] to-[#111] text-[#e5e5e5]">
+          <div className="relative flex-1 flex flex-col items-center text-center p-4 pt-6 bg-linear-to-b from-[#0a0a0a] to-[#111] text-[#e5e5e5]">
             {/* Decorative Divider Top */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-[1px] bg-gradient-to-r from-transparent via-[#bf953f]/50 to-transparent" />
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-px bg-linear-to-r from-transparent via-[#bf953f]/50 to-transparent" />
 
             {/* Title: Year | Make Model */}
             <h3 className="font-serif text-xl md:text-2xl text-[#fcf6ba] mb-2 drop-shadow-md">
@@ -117,15 +117,15 @@ export default function ExclusiveVehicleCard({
           </div>
 
           {/* Bottom Exclusive Banner */}
-          <div className="relative h-8 bg-gradient-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#0a0a0a] border-t border-[#bf953f] flex items-center justify-center z-10">
+          <div className="relative h-8 bg-linear-to-r from-[#0a0a0a] via-[#1a1a1a] to-[#0a0a0a] border-t border-[#bf953f] flex items-center justify-center z-10">
             <div className="flex items-center gap-2 w-full justify-center px-4">
-              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
+              <div className="h-px flex-1 bg-linear-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
               <div className="w-1.5 h-1.5 rotate-45 bg-[#bf953f]" />
               <span className="text-[#bf953f] font-serif tracking-[0.2em] text-[10px] font-bold uppercase">
                 {t("card.exclusive")}
               </span>
               <div className="w-1.5 h-1.5 rotate-45 bg-[#bf953f]" />
-              <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
+              <div className="h-px flex-1 bg-linear-to-r from-transparent via-[#bf953f] to-transparent opacity-50" />
             </div>
           </div>
         </div>

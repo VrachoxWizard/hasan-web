@@ -26,9 +26,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Vozilo } from "@/types/vozilo";
-import {
-  formatKilometraza,
-} from "@/lib/vozila";
+import { formatKilometraza } from "@/lib/vozila";
 import { useUsporediStore } from "@/stores/usporediStore";
 import { useFavoritiStore } from "@/stores/favoritiStore";
 import { toast } from "sonner";
@@ -66,20 +64,20 @@ export default function VoziloCard({
       if (isComparing) {
         removeVozilo(vozilo.id);
         toast.info(
-          `${vozilo.marka} ${vozilo.model} ${t("removedFromCompare")}`
+          `${vozilo.marka} ${vozilo.model} ${t("removedFromCompare")}`,
         );
       } else {
         const success = addVozilo(vozilo);
         if (success) {
           toast.success(
-            `${vozilo.marka} ${vozilo.model} ${t("addedToCompare")}`
+            `${vozilo.marka} ${vozilo.model} ${t("addedToCompare")}`,
           );
         } else {
           toast.error(t("maxCompare"));
         }
       }
     },
-    [isComparing, removeVozilo, vozilo, addVozilo, t]
+    [isComparing, removeVozilo, vozilo, addVozilo, t],
   );
 
   const handleFavoritToggle = useCallback(
@@ -90,15 +88,15 @@ export default function VoziloCard({
       const added = toggleFavorit(vozilo);
       if (added) {
         toast.success(
-          `${vozilo.marka} ${vozilo.model} ${t("addedToFavorites")}`
+          `${vozilo.marka} ${vozilo.model} ${t("addedToFavorites")}`,
         );
       } else {
         toast.info(
-          `${vozilo.marka} ${vozilo.model} ${t("removedFromFavorites")}`
+          `${vozilo.marka} ${vozilo.model} ${t("removedFromFavorites")}`,
         );
       }
     },
-    [toggleFavorit, vozilo, t]
+    [toggleFavorit, vozilo, t],
   );
 
   const handleImageError = useCallback(() => {
@@ -121,97 +119,101 @@ export default function VoziloCard({
             href={`/vozila/${vozilo.id}`}
             className="block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
-            <div className="relative aspect-[4/3] overflow-hidden">
+            <div className="relative aspect-4/3 overflow-hidden">
               {/* Skeleton loader */}
               {!imageLoaded && (
                 <div className="absolute inset-0 bg-muted animate-pulse">
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full animate-shimmer" />
+                  <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/10 to-transparent -translate-x-full animate-shimmer" />
                 </div>
               )}
 
               {/* Image Error State - Styled empty state with icon */}
               {imageError && (
-              <div className="absolute inset-0 bg-muted flex flex-col items-center justify-center gap-3">
-                <div
-                  className={`w-16 h-16 rounded-2xl ${components.icon.background} flex items-center justify-center`}
-                >
-                  <ImageIcon className={`w-8 h-8 ${components.icon.accent}`} />
+                <div className="absolute inset-0 bg-muted flex flex-col items-center justify-center gap-3">
+                  <div
+                    className={`w-16 h-16 rounded-2xl ${components.icon.background} flex items-center justify-center`}
+                  >
+                    <ImageIcon
+                      className={`w-8 h-8 ${components.icon.accent}`}
+                    />
+                  </div>
+                  <p
+                    className={`${typography.small} text-muted-foreground text-center px-4`}
+                  >
+                    {t("imageNotAvailable")}
+                  </p>
                 </div>
-                <p
-                  className={`${typography.small} text-muted-foreground text-center px-4`}
-                >
-                  {t("imageNotAvailable")}
-                </p>
-              </div>
               )}
 
               {/* Vehicle Image */}
               {!imageError && (
                 <Image
                   src={vozilo.slike[0]}
-                alt={`${vozilo.marka} ${vozilo.model} (${
-                  vozilo.godina
-                }) - ${formatKilometraza(vozilo.kilometraza)}`}
-                fill
-                className={cn(
-                  "object-cover transition-all duration-300 group-hover:scale-110 will-change-transform",
-                  imageLoaded ? "opacity-100" : "opacity-0"
+                  alt={`${vozilo.marka} ${vozilo.model} (${
+                    vozilo.godina
+                  }) - ${formatKilometraza(vozilo.kilometraza)}`}
+                  fill
+                  className={cn(
+                    "object-cover transition-all duration-300 group-hover:scale-110 will-change-transform",
+                    imageLoaded ? "opacity-100" : "opacity-0",
+                  )}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority={priority}
+                  loading={priority ? "eager" : "lazy"}
+                  quality={85}
+                  onLoad={() => setImageLoaded(true)}
+                  onError={handleImageError}
+                />
+              )}
+
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent" />
+
+              {/* Badges - Fixed positioning to prevent overlap on small screens */}
+              <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-20">
+                {vozilo.ekskluzivno && (
+                  <Badge className={badges.ekskluzivno}>
+                    {t("card.exclusive")}
+                  </Badge>
                 )}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                priority={priority}
-                loading={priority ? "eager" : "lazy"}
-                quality={85}
-                onLoad={() => setImageLoaded(true)}
-                onError={handleImageError}
-              />
+                {vozilo.istaknuto && !vozilo.ekskluzivno && (
+                  <Badge className={badges.istaknuto}>
+                    {t("card.featured")}
+                  </Badge>
+                )}
+              </div>
+
+              {/* Price Drop Badge */}
+              {vozilo.staracijena && (
+                <PriceDropBadge
+                  originalPrice={vozilo.staracijena}
+                  currentPrice={vozilo.cijena}
+                />
               )}
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              {/* Quick View Overlay - Desktop only */}
+              <div className="hidden lg:flex absolute inset-0 items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition-opacity duration-300 z-20 pointer-events-none">
+                <Button
+                  size="lg"
+                  className="bg-white text-primary hover:bg-white/90 font-semibold shadow-xl pointer-events-auto"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setIsQuickViewOpen(true);
+                  }}
+                >
+                  <Eye className="w-5 h-5 mr-2" />
+                  {t("quickViewButton")}
+                </Button>
+              </div>
 
-            {/* Badges - Fixed positioning to prevent overlap on small screens */}
-            <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-20">
-              {vozilo.ekskluzivno && (
-                <Badge className={badges.ekskluzivno}>
-                  {t("card.exclusive")}
-                </Badge>
-              )}
-              {vozilo.istaknuto && !vozilo.ekskluzivno && (
-                <Badge className={badges.istaknuto}>{t("card.featured")}</Badge>
-              )}
-            </div>
-
-            {/* Price Drop Badge */}
-            {vozilo.staracijena && (
-              <PriceDropBadge
-                originalPrice={vozilo.staracijena}
-                currentPrice={vozilo.cijena}
-              />
-            )}
-
-            {/* Quick View Overlay - Desktop only */}
-            <div className="hidden lg:flex absolute inset-0 items-center justify-center opacity-0 group-hover:opacity-100 bg-black/40 transition-opacity duration-300 z-20 pointer-events-none">
-              <Button
-                size="lg"
-                className="bg-white text-primary hover:bg-white/90 font-semibold shadow-xl pointer-events-auto"
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  setIsQuickViewOpen(true);
-                }}
-              >
-                <Eye className="w-5 h-5 mr-2" />
-                {t("quickViewButton")}
-              </Button>
-            </div>
-
-            {/* Price Tag - Using PriceDisplay component */}
-            <div className="absolute bottom-3 left-3 z-10">
-              <PriceDisplay
-                price={vozilo.cijena}
-                oldPrice={vozilo.staracijena}
-                variant="card"
-              />
-            </div>
+              {/* Price Tag - Using PriceDisplay component */}
+              <div className="absolute bottom-3 left-3 z-10">
+                <PriceDisplay
+                  price={vozilo.cijena}
+                  oldPrice={vozilo.staracijena}
+                  variant="card"
+                />
+              </div>
             </div>
           </Link>
 
@@ -225,7 +227,7 @@ export default function VoziloCard({
               <Button
                 size="icon"
                 variant="secondary"
-                className={`transition-all shadow-md min-w-[44px] min-h-[44px] ${
+                className={`transition-all shadow-md min-w-11 min-h-11 ${
                   isFav
                     ? "bg-favorite text-favorite-foreground hover:bg-favorite/90"
                     : "bg-white/90 hover:bg-white text-muted-foreground dark:bg-card/90 dark:hover:bg-card dark:text-foreground"
@@ -246,7 +248,7 @@ export default function VoziloCard({
             <Button
               size="icon"
               variant={isComparing ? "default" : "secondary"}
-              className={`transition-all shadow-md min-w-[44px] min-h-[44px] ${
+              className={`transition-all shadow-md min-w-11 min-h-11 ${
                 isComparing
                   ? "bg-accent text-accent-foreground hover:bg-accent/90"
                   : "bg-white/90 hover:bg-white text-muted-foreground dark:bg-card/90 dark:hover:bg-card dark:text-foreground"
