@@ -1,0 +1,672 @@
+{
+  "hero": {
+    "availableVehicles": "DOSTUPNA VOZILA",
+    "wholesale": "VELEPRODAJA VOZILA"
+  },
+  "common": {
+    "nav": {
+      "home": "Početna",
+      "vehicles": "Vozila",
+      "wholesale": "Veleprodaja",
+      "about": "O Nama",
+      "compare": "Usporedi",
+      "favorites": "Favoriti",
+      "allVehicles": "Sva vozila",
+      "contact": "Veleprodaja",
+      "compareVehicles": "Usporedi vozila"
+    },
+    "footer": {
+      "navigation": "Navigacija",
+      "contact": "Kontakt",
+      "workingHours": "Radno vrijeme",
+      "schedule": "Raspored",
+      "closed": "Zatvoreno",
+      "allRightsReserved": "Sva prava pridržana.",
+      "madeInCroatia": "Izrađeno u Hrvatskoj",
+      "privacy": "Privatnost",
+      "terms": "Uvjeti korištenja",
+      "backToTop": "Povratak na vrh"
+    },
+    "header": {
+      "mainNavigation": "Glavna navigacija",
+      "openMenu": "Otvori navigacijski izbornik",
+      "closeMenu": "Zatvori izbornik",
+      "skipToContent": "Preskoči na glavni sadržaj",
+      "premiumVehicles": "Premium vozila",
+      "quickAccess": "Brzi pristup",
+      "vehiclesSelected": "vozila odabrano",
+      "saved": "spremljeno",
+      "call": "Nazovi",
+      "contactViaWhatsApp": "Kontaktirajte nas putem WhatsApp"
+    },
+    "theme": {
+      "loading": "Učitavanje teme...",
+      "lightMode": "Uključi svijetli način",
+      "darkMode": "Uključi tamni način"
+    },
+    "error": {
+      "title": "Nešto je pošlo po krivu",
+      "description": "Došlo je do neočekivane greške. Pokušajte osvježiti stranicu ili se vratite na početnu.",
+      "refresh": "Osvježi stranicu",
+      "backToHome": "Povratak na početnu"
+    },
+    "whatsapp": {
+      "defaultMessage": "Pozdrav! Zanima me ponuda vozila.",
+      "ariaLabel": "Kontaktirajte nas putem WhatsApp-a"
+    },
+    "workingHours": {
+      "weekdays": "Ponedjeljak - Petak",
+      "saturday": "Subota",
+      "sunday": "Nedjelja"
+    },
+    "company": {
+      "name": "Produkt Auto",
+      "tagline": "Vaš pouzdani partner za kvalitetna vozila",
+      "description": "Ako vam je dosta neizvjesnosti i sumnji kod kupnje rabljenog vozila – dobrodošli ste kod nas. Nudimo samo provjerena, temeljito pregledana vozila s transparentnom dokumentacijom i realnim cijenama."
+    },
+    "notFound": {
+      "title": "Stranica nije pronađena",
+      "description": "Nažalost, stranica koju tražite ne postoji ili je premještena. Provjerite adresu ili se vratite na početnu stranicu.",
+      "home": "Početna stranica",
+      "searchVehicles": "Pretraži vozila"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Produkt Auto - Kvalitetna rabljena vozila | Najbolje cijene u Hrvatskoj",
+      "description": "Prodaja rabljenih vozila s jamstvom kvalitete. Provjerena vozila, potpuna povijest, najbolje cijene. Posjetite nas u Zagrebu!"
+    },
+    "hero": {
+      "title": "Kvalitetna rabljena vozila",
+      "subtitle": "Pronađite savršeno vozilo po najboljoj cijeni"
+    },
+    "features": {
+      "title": "Zašto odabrati nas?",
+      "subtitle": "Posvećeni smo pružanju najboljeg iskustva kupnje automobila. Evo što nas razlikuje od konkurencije.",
+      "quality": {
+        "title": "Jamstvo kvalitete",
+        "description": "Svako vozilo prolazi detaljnu inspekciju od 150+ točaka provjere prije ponude."
+      },
+      "transparency": {
+        "title": "Transparentnost",
+        "description": "Potpuna povijest vozila, dokumentacija i servisna knjižica dostupni odmah."
+      },
+      "support": {
+        "title": "Stručna podrška",
+        "description": "Naš tim stručnjaka dostupan je radnim danima za sva vaša pitanja i podršku."
+      }
+    },
+    "cta": {
+      "title": "Spremni pronaći svoj sljedeći automobil?",
+      "subtitle": "Posjetite nas ili nas kontaktirajte za više informacija. Naš tim stručnjaka pomoći će vam pronaći savršeno vozilo za vaše potrebe.",
+      "contactUs": "Kontaktirajte nas"
+    },
+    "map": {
+      "title": "Posjetite nas",
+      "locationTitle": "Lokacija Produkt Auto",
+      "workingHoursTitle": "Radno vrijeme",
+      "companyDescription1": "Ako vam je dosta neizvjesnosti i sumnji kod kupnje rabljenog vozila – dobrodošli ste kod nas. Nudimo samo provjerena, temeljito pregledana vozila s transparentnom dokumentacijom i realnim cijenama.",
+      "companyDescription2": "Bez skrivenih mana, bez neugodnih iznenađenja. Svako vozilo u našoj ponudi prošlo je detaljnu provjeru i dolazi s kompletnom servisnom poviješću.",
+      "companyDescription3": "Cijenimo vaše vrijeme – brza i jednostavna kupnja bez nepotrebnih komplikacija. Javite nam se s povjerenjem."
+    }
+  },
+  "search": {
+    "manufacturer": "Proizvođač",
+    "model": "Model",
+    "year": "Godina",
+    "yearFrom": "Godina od",
+    "fuel": "Gorivo",
+    "fuelType": "Tip goriva",
+    "transmission": "Mjenjač",
+    "transmissionType": "Vrsta mjenjača",
+    "price": "Cijena",
+    "moreFilters": "Više filtera",
+    "search": "Pretraži",
+    "searchVehicles": "Pretraži vozila"
+  },
+  "vehicles": {
+    "pageTitle": "Naša ponuda vozila",
+    "pageSubtitle": "Pronađite savršeno vozilo iz naše ponude od {count} kvalitetnih automobila",
+    "searchPlaceholder": "Pretraži po marki, modelu, opisu...",
+    "pageDescription": "Pregledajte našu ponudu kvalitetnih rabljenih vozila",
+    "searchLabel": "Pretraži vozila",
+    "viewModeGrid": "Prikaz u mreži",
+    "viewModeList": "Prikaz u listi",
+    "exclusiveOnly": "Samo ekskluzivna vozila",
+    "noResults": "Nema vozila koja odgovaraju filterima",
+    "noResultsDescription": "Pokušajte promijeniti ili obrisati neke filtere kako biste vidjeli više rezultata",
+    "clearFilters": "Obriši filtere",
+    "clearAllFilters": "Obriši sve filtere",
+    "filters": "Filteri",
+    "quickFiltersLabel": "Brzi filteri",
+    "brand": "Marka",
+    "allBrands": "Sve marke",
+    "fuelType": "Vrsta goriva",
+    "transmissionType": "Vrsta mjenjača",
+    "allTransmissions": "Svi mjenjači",
+    "price": "Cijena",
+    "maxMileage": "Maksimalna kilometraža",
+    "yearOfProduction": "Godina proizvodnje",
+    "vehiclesCount": "{count} vozila",
+    "showingResults": "Prikazujem {count} vozila",
+    "sortBy": "Sortiraj po",
+    "sortNewest": "Najnovije",
+    "sortPriceAsc": "Cijena: niža prvo",
+    "sortPriceDesc": "Cijena: viša prvo",
+    "sortYearDesc": "Godina: novije prvo",
+    "sortYearAsc": "Godina: starije prvo",
+    "sortMileageAsc": "Kilometraža: manja prvo",
+    "sortMileage": "Kilometraža",
+    "fuel": {
+      "benzin": "Benzin",
+      "dizel": "Dizel",
+      "hibrid": "Hibrid",
+      "elektricni": "Električni"
+    },
+    "transmission": {
+      "rucni": "Ručni",
+      "automatski": "Automatski"
+    },
+    "colors": {
+      "Crna": "Crna",
+      "Bijela": "Bijela",
+      "Siva": "Siva",
+      "Srebrna": "Srebrna",
+      "Plava": "Plava",
+      "Crvena": "Crvena",
+      "Zelena": "Zelena",
+      "Smeđa": "Smeđa",
+      "Bež": "Bež",
+      "Narančasta": "Narančasta"
+    },
+    "features": {
+      "LED svjetla": "LED svjetla",
+      "Kožna sjedala": "Kožna sjedala",
+      "Panoramski krov": "Panoramski krov",
+      "Navigacija": "Navigacija",
+      "Parking senzori": "Parking senzori",
+      "Kamera za vožnju unazad": "Kamera za vožnju unazad",
+      "Grijana sjedala": "Grijana sjedala",
+      "Automatska klima": "Automatska klima",
+      "Tempomat": "Tempomat",
+      "Adaptivni tempomat": "Adaptivni tempomat",
+      "Električna sjedala": "Električna sjedala",
+      "Automatsko parkiranje": "Automatsko parkiranje",
+      "Upozorenje pri promjeni trake": "Upozorenje pri promjeni trake",
+      "Head-up display": "Head-up display",
+      "Harman Kardon zvučnici": "Harman Kardon zvučnici",
+      "Bose zvučnici": "Bose zvučnici",
+      "Apple CarPlay": "Apple CarPlay",
+      "Android Auto": "Android Auto",
+      "Bežično punjenje": "Bežično punjenje",
+      "Ambijentalno osvjetljenje": "Ambijentalno osvjetljenje",
+      "Sportska sjedala": "Sportska sjedala",
+      "M paket": "M paket",
+      "S-line paket": "S-line paket"
+    },
+    "card": {
+      "exclusive": "Ekskluzivno",
+      "featured": "Istaknuto",
+      "savings": "Ušteda",
+      "viewDetails": "Pogledaj detalje",
+      "compare": "Usporedi",
+      "addToFavorites": "Dodaj u favorite",
+      "removeFromFavorites": "Ukloni iz favorita",
+      "year": "Godina",
+      "mileage": "Kilometraža",
+      "power": "Snaga",
+      "km": "km",
+      "addedToCompare": "{brand} {model} dodan u usporedbu",
+      "maxCompareReached": "Možete usporediti maksimalno 3 vozila"
+    },
+    "detail": {
+      "backToVehicles": "Natrag na vozila",
+      "description": "Opis",
+      "specifications": "Specifikacije",
+      "features": "Oprema",
+      "contactSeller": "Kontaktirajte prodavatelja",
+      "requestInfo": "Zatražite informacije",
+      "shareVehicle": "Podijeli vozilo",
+      "linkCopied": "Link kopiran u međuspremnik",
+      "gallery": "Galerija",
+      "previousImage": "Prethodna slika",
+      "nextImage": "Sljedeća slika",
+      "financing": "Financiranje"
+    },
+    "quickView": {
+      "moreImages": "više",
+      "price": "Cijena",
+      "fuel": "Gorivo",
+      "transmission": "Mjenjač",
+      "inComparison": "U usporedbi",
+      "addToCompare": "Dodaj u usporedbu",
+      "viewAllDetails": "Pogledaj sve detalje"
+    },
+    "quickFilters": {
+      "luxury": "Luksuzna",
+      "economy": "Ekonomična",
+      "commercial": "Gospodarska"
+    },
+    "listView": {
+      "details": "Detalji"
+    },
+    "imageNotAvailable": "Slika nije dostupna",
+    "addToCompare": "Dodaj u usporedbu",
+    "removeFromCompare": "Ukloni iz usporedbe",
+    "addedToCompare": "{brand} {model} dodan u usporedbu",
+    "removedFromCompare": "{brand} {model} uklonjen iz usporedbe",
+    "addToFavorites": "Dodaj u favorite",
+    "removeFromFavorites": "Ukloni iz favorita",
+    "addedToFavorites": "{brand} {model} dodan u favorite",
+    "removedFromFavorites": "{brand} {model} uklonjen iz favorita",
+    "maxCompare": "Možete usporediti maksimalno 3 vozila",
+    "quickViewButton": "Brzi pregled"
+  },
+  "compareBar": {
+    "vehicleComparison": "Usporedba vozila",
+    "selectedCount": "{count} od {max} vozila odabrano",
+    "removeVehicle": "Ukloni {brand} {model}",
+    "clear": "Obriši",
+    "compare": "Usporedi",
+    "compareWithCount": "Usporedi ({count})"
+  },
+  "compare": {
+    "meta": {
+      "title": "Usporedi vozila | Produkt Auto",
+      "description": "Usporedite do 3 vozila istovremeno. Pregledajte specifikacije, cijene i opremu na jednom mjestu."
+    },
+    "pageTitle": "Usporedi vozila",
+    "pageDescription": "Usporedite do 3 vozila istovremeno",
+    "emptyTitle": "Nema vozila za usporedbu",
+    "emptyDescription": "Dodajte vozila klikom na ikonu usporedbe na karticama vozila. Možete usporediti do 3 vozila istovremeno i vidjeti sve specifikacije u usporedbi.",
+    "browseVehicles": "Pregledaj vozila",
+    "remove": "Ukloni",
+    "maxVehicles": "Možete usporediti maksimalno 3 vozila",
+    "addedToCompare": "dodano u usporedbu",
+    "removedFromCompare": "uklonjeno iz usporedbe",
+    "loading": "Učitavanje...",
+    "comparingCount": "Uspoređujete {count} od 3 moguća vozila",
+    "addVehicle": "Dodaj vozilo",
+    "clearAll": "Obriši sve",
+    "quickOverview": "Brzi pregled",
+    "lowestPrice": "Najniža cijena",
+    "newest": "Najnovije",
+    "lowestMileage": "Najmanje km",
+    "addVehicleForComparison": "Dodaj vozilo za usporedbu",
+    "featured": "Istaknuto",
+    "features": "Oprema",
+    "ctaTitle": "Pronašli ste vozilo koje vam odgovara?",
+    "ctaDescription": "Kontaktirajte nas za više informacija ili zakazivanje pregleda vozila.",
+    "contactUs": "Kontaktirajte nas",
+    "specs": {
+      "price": "Cijena",
+      "year": "Godina",
+      "mileage": "Kilometraža",
+      "fuel": "Gorivo",
+      "transmission": "Mjenjač",
+      "power": "Snaga",
+      "color": "Boja"
+    }
+  },
+  "favorites": {
+    "meta": {
+      "title": "Moji favoriti | Produkt Auto",
+      "description": "Pregledajte svoja spremljena vozila. Usporedite favorite i pronađite savršen automobil."
+    },
+    "pageTitle": "Moji favoriti",
+    "pageDescription": "Vaša spremljena vozila",
+    "emptyTitle": "Nemate spremljenih favorita",
+    "emptyDescription": "Pregledajte našu ponudu i dodajte vozila u favorite klikom na ikonu srca. Vaši omiljeni automobili će biti ovdje sačuvani.",
+    "browseVehicles": "Pregledaj vozila",
+    "backToVehicles": "Natrag na sva vozila",
+    "clearAll": "Obriši sve",
+    "vehicleCount": "{count, plural, one {# vozilo} few {# vozila} other {# vozila}}",
+    "loading": "Učitavanje...",
+    "addedToFavorites": "dodano u favorite",
+    "removedFromFavorites": "uklonjeno iz favorita"
+  },
+  "about": {
+    "meta": {
+      "title": "O Nama | Produkt Auto - Kvalitetna rabljena vozila",
+      "description": "Upoznajte Produkt Auto - vašeg pouzdanog partnera za kvalitetna rabljena vozila. Više od 10 godina iskustva u prodaji automobila."
+    },
+    "pageTitle": "O Nama",
+    "pageDescription": "Upoznajte Produkt Auto - vašeg pouzdanog partnera za kvalitetna rabljena vozila",
+    "hero": {
+      "title": "O Nama",
+      "subtitle": "Vaš pouzdani partner za kvalitetna vozila već više od 10 godina",
+      "yourPartner": "Vaš pouzdani partner"
+    },
+    "stats": {
+      "verified": {
+        "label": "Provjerena vozila",
+        "sublabel": "s dokumentacijom"
+      },
+      "warranty": {
+        "value": "12 mj.",
+        "label": "G1 Zaštita",
+        "sublabel": "jamstvo motora"
+      },
+      "financing": {
+        "value": "Kredit",
+        "label": "Financiranje",
+        "sublabel": "vodeće banke"
+      },
+      "support": {
+        "value": "Non-stop",
+        "label": "Podrška",
+        "sublabel": "i nakon kupnje"
+      }
+    },
+    "values": {
+      "title": "Zašto odabrati Produkt Auto?",
+      "verified": {
+        "title": "Provjerena vozila",
+        "description": "Sva vozila dolaze s provjerenom poviješću i urednom servisnom dokumentacijom."
+      },
+      "warranty": {
+        "title": "Garancija porijekla i G1 zaštita",
+        "description": "Na svako vozilo nudimo garanciju porijekla, a uz to možete aktivirati i G1 produženo jamstvo motora i mjenjača do 12 mjeseci, što vam daje dodatnu sigurnost i bezbrižnost nakon kupnje."
+      },
+      "financing": {
+        "title": "Mogućnost financiranja",
+        "description": "Fleksibilne opcije financiranja putem vodećih banaka."
+      },
+      "support": {
+        "title": "Podrška nakon kupnje",
+        "description": "Stojimo vam na raspolaganju za sva pitanja i savjete čak i nakon što preuzmete vozilo."
+      },
+      "trust": {
+        "title": "Povjerenje",
+        "description": "Gradimo dugotrajne odnose s našim kupcima"
+      },
+      "quality": {
+        "title": "Kvaliteta",
+        "description": "Samo najbolja vozila prolaze našu selekciju"
+      },
+      "transparency": {
+        "title": "Transparentnost",
+        "description": "Potpuna dokumentacija i povijest svakog vozila"
+      },
+      "service": {
+        "title": "Usluga",
+        "description": "Profesionalna podrška od početka do kraja"
+      }
+    },
+    "retail": {
+      "title": "Maloprodaja",
+      "subtitle": "Za privatne kupce",
+      "description": "Kupcima nudimo sigurnu i transparentnu kupnju — svako vozilo prolazi temeljit pregled, bez skrivenih nedostataka i bez neugodnih iznenađenja.",
+      "highlight": "Ako vam je dosta neizvjesnosti pri kupnji rabljenog automobila, kod nas ste na pravom mjestu.",
+      "browseVehicles": "Pregledaj vozila",
+      "features": {
+        "history": {
+          "title": "Provjerena povijest",
+          "description": "Uredna dokumentacija i transparentna servisna povijest"
+        },
+        "noSurprises": {
+          "title": "Bez iznenađenja",
+          "description": "Temeljit pregled svakog vozila prije prodaje"
+        },
+        "safePurchase": {
+          "title": "Sigurna kupnja",
+          "description": "Realna tržišna cijena bez skrivenih nedostataka"
+        }
+      }
+    },
+    "wholesale": {
+      "title": "Veleprodaja",
+      "subtitle": "Za trgovce i partnere",
+      "description": "Nudimo pouzdanu suradnju za sve trgovce i partnere koji traže kvalitetna vozila po konkurentnim cijenama.",
+      "becomePartner": "Postanite partner",
+      "features": {
+        "prices": {
+          "title": "Konkurentne cijene",
+          "description": "Veleprodajne cijene prilagođene trgovcima"
+        },
+        "cooperation": {
+          "title": "Fleksibilna suradnja",
+          "description": "Partnerstvo usmjereno na zajednički rast"
+        },
+        "support": {
+          "title": "Podrška",
+          "description": "Kontinuirana podrška za bolje rezultate"
+        }
+      }
+    },
+    "philosophy": {
+      "title": "Naša filozofija",
+      "description": "Pošten pristup, transparentnost i dugoročna suradnja",
+      "subtitle": "To su temelji na kojima gradimo povjerenje s našim kupcima i partnerima."
+    },
+    "wholesaleCard": {
+      "subtitle": "Za trgovce vozilima",
+      "description": "Produkt Auto je pouzdan partner postojećim i budućim trgovcima vozilima na području Hrvatske. Nudimo konkurentne veleprodajne cijene, fleksibilnu suradnju i podršku s ciljem",
+      "descriptionHighlight": "zajedničkog rasta i postizanja boljih rezultata u autoindustriji.",
+      "contactUs": "Kontaktiraj nas"
+    },
+    "cta": {
+      "title": "Spremni za suradnju?",
+      "description": "Bilo da tražite pouzdano vozilo ili ste trgovac koji traži pouzdanog partnera, tu smo za vas.",
+      "viewVehicles": "Pogledaj vozila",
+      "becomePartner": "Postani partner"
+    },
+    "valuesSubtitle": "Vaša sigurnost i zadovoljstvo su nam na prvom mjestu.",
+    "companyDescription": "Specijalizirani smo za uvoz, prodaju i veleprodaju provjerenih rabljenih vozila. Naš fokus je isključivo na pouzdanim vozilima s urednom dokumentacijom, provjerenom poviješću i realnom tržišnom cijenom."
+  },
+  "contact": {
+    "pageTitle": "Veleprodaja",
+    "pageDescription": "Postanite naš partner - specijalna ponuda za trgovce vozilima",
+    "hero": {
+      "badge": "Veleprodaja vozila",
+      "title": "Postanite naš partner",
+      "subtitle": "Bilo da ste već aktivan trgovac ili tek ulazite u autoindustriju, Produkt Auto nudi pouzdano partnerstvo, konkurentne veleprodajne cijene i podršku usmjerenu na zajednički uspjeh."
+    },
+    "form": {
+      "title": "Zatražite ponudu",
+      "subtitle": "Ispunite obrazac i javit ćemo vam se u najkraćem roku",
+      "name": "Ime i prezime",
+      "email": "Email",
+      "phone": "Telefon",
+      "budget": "Budžet",
+      "selectBudget": "Odaberite budžet",
+      "message": "Vaša poruka",
+      "messagePlaceholder": "Opišite što vas zanima...",
+      "submit": "Pošalji upit",
+      "sending": "Šaljem...",
+      "success": "Vaša poruka je uspješno poslana!",
+      "error": "Greška pri slanju poruke",
+      "pleaseWait": "Molimo pričekajte prije ponovnog slanja",
+      "fixErrors": "Molimo ispravite greške u obrascu",
+      "formHasErrors": "Obrazac sadrži {count} grešku",
+      "formHasErrorsPlural": "Obrazac sadrži {count} greške",
+      "thankYou": "Hvala na upitu!",
+      "successMessage": "Vaš upit je uspješno zaprimljen. Javit ćemo vam se u najkraćem mogućem roku."
+    },
+    "info": {
+      "whyWorkWithUs": "Zašto surađivati s nama?",
+      "benefits": {
+        "prices": "Konkurentne veleprodajne cijene",
+        "terms": "Fleksibilni uvjeti suradnje",
+        "selection": "Širok izbor provjerenih vozila",
+        "delivery": "Brza i pouzdana isporuka",
+        "support": "Podrška usmjerena na vaš uspjeh"
+      },
+      "phone": "Telefon",
+      "email": "Email",
+      "address": "Adresa",
+      "workingHours": "Radno vrijeme",
+      "responseTime": "Odgovaramo unutar 24h",
+      "partnerBenefits": "Prednosti partnerstva",
+      "contactInfo": "Kontakt informacije",
+      "location": "Lokacija"
+    },
+    "cta": {
+      "title": "Imate pitanja?",
+      "description": "Slobodno nas kontaktirajte putem telefona ili emaila - rado ćemo odgovoriti na sva vaša pitanja o veleprodaji.",
+      "callUs": "Nazovite nas",
+      "sendEmail": "Pošaljite email"
+    },
+    "budget": {
+      "upTo15k": "Do 15.000 €",
+      "15kTo25k": "15.000 € - 25.000 €",
+      "25kTo40k": "25.000 € - 40.000 €",
+      "40kTo60k": "40.000 € - 60.000 €",
+      "over60k": "Preko 60.000 €"
+    }
+  },
+  "validation": {
+    "required": "Ovo polje je obavezno",
+    "minLength": "Minimalno {count} znakova",
+    "maxLength": "Maksimalno {count} znakova",
+    "invalidEmail": "Email nije valjan",
+    "invalidPhone": "Broj telefona nije valjan",
+    "nameMinLength": "Ime mora imati minimalno 2 znaka",
+    "nameMaxLength": "Ime ne smije biti duže od 100 znakova",
+    "messageMinLength": "Poruka mora imati minimalno 10 znakova",
+    "messageMaxLength": "Poruka ne smije biti duža od 1000 znakova"
+  },
+  "calculator": {
+    "title": "Kalkulator financiranja",
+    "downPayment": "Predujam (učešće)",
+    "numberOfInstallments": "Broj rata",
+    "annualInterestRate": "Godišnja kamatna stopa",
+    "loanAmount": "Iznos kredita",
+    "interestRate": "Kamatna stopa",
+    "loanTerm": "Trajanje kredita",
+    "months": "mjeseci",
+    "monthsShort": "mj.",
+    "monthlyPayment": "Mjesečna rata",
+    "totalPayment": "Ukupni iznos",
+    "totalInterest": "Ukupna kamata",
+    "totalToPay": "Ukupno za platiti",
+    "calculate": "Izračunaj",
+    "copied": "Izračun kopiran!",
+    "copyError": "Greška pri kopiranju",
+    "comparisonTitle": "Usporedba opcija financiranja",
+    "monthly": "mjesečno",
+    "copyCalculation": "Kopiraj izračun",
+    "disclaimer": "Ovo je informativni izračun. Stvarni uvjeti financiranja mogu se razlikovati ovisno o banci i vašoj kreditnoj sposobnosti. Kontaktirajte nas za preciznu ponudu.",
+    "clipboardSummary": "Kalkulator financiranja\n\nCijena vozila: {price}\nPredujam: {downPayment} ({percentage}%)\nBroj rata: {installments} mjeseci\nKamatna stopa: {rate}%\n\nIznos kredita: {loanAmount}\nMjesečna rata: {monthlyPayment}\nUkupna kamata: {totalInterest}\nUkupno za platiti: {totalToPay}"
+  },
+  "recentlyViewed": {
+    "title": "Nedavno pregledano",
+    "allVehicles": "Sva vozila"
+  },
+  "exclusive": {
+    "title": "Ekskluzivna ponuda",
+    "subtitle": "Posebno odabrana vozila po povoljnim cijenama",
+    "description": "Odabrana vozila koja ispunjavaju visoke standarde kvalitete i pouzdanosti – sada dostupna uz pažljivo formirane cijene koje omogućuju stvarnu uštedu.",
+    "viewAll": "Pogledaj sve",
+    "viewAllOffers": "Pogledaj sve ponude"
+  },
+  "trust": {
+    "warranty": "Jamstvo 12 mj.",
+    "verified": "Provjereno",
+    "quality": {
+      "title": "Jamstvo kvalitete",
+      "description": "Svako vozilo prolazi detaljnu inspekciju od 150+ točaka provjere."
+    },
+    "history": {
+      "title": "Transparentna povijest",
+      "description": "Potpuna dokumentacija i servisna knjižica dostupni odmah."
+    },
+    "serviced": {
+      "title": "Servisirana vozila",
+      "description": "Sva vozila su servisirana i pripremljena za sigurnu vožnju."
+    },
+    "exchange": {
+      "title": "30 dana zamjene",
+      "description": "Niste zadovoljni? Zamijenite vozilo unutar 30 dana."
+    },
+    "experience": {
+      "title": "10+ godina iskustva",
+      "description": "Više od 500 zadovoljnih kupaca i rastući broj preporuka."
+    }
+  },
+  "gallery": {
+    "image": "Slika",
+    "previousImage": "Prethodna slika",
+    "nextImage": "Sljedeća slika",
+    "imageGallery": "Galerija slika",
+    "imageOf": "Slika {current} od {total}",
+    "closeGallery": "Zatvori galeriju (Escape)",
+    "galleryNavigation": "Navigacija galerije",
+    "showImage": "Prikaži sliku {number}"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politika privatnosti | Produkt Auto",
+      "description": "Saznajte kako Produkt Auto štiti vaše osobne podatke. GDPR sukladnost i sigurnost vaših podataka."
+    },
+    "pageTitle": "Politika privatnosti",
+    "pageDescription": "Vaša privatnost nam je važna. Saznajte kako prikupljamo, koristimo i štitimo vaše podatke.",
+    "lastUpdated": "Zadnje ažuriranje: Prosinac 2025",
+    "sections": {
+      "dataCollection": {
+        "title": "Prikupljanje podataka",
+        "content": "Prikupljamo samo podatke koji su nužni za pružanje naših usluga. To uključuje:\n\n• Ime i prezime\n• Email adresa\n• Broj telefona\n• Podatke o vozilima koja vas zanimaju\n\nSve podatke prikupljamo isključivo uz vašu privolu i koristimo ih samo u svrhe za koje su namijenjeni."
+      },
+      "dataProtection": {
+        "title": "Zaštita podataka",
+        "content": "Vaši osobni podaci su zaštićeni najmodernijim sigurnosnim mjerama:\n\n• SSL enkripcija svih komunikacija\n• Sigurno pohranjivanje podataka\n• Ograničen pristup podacima samo ovlaštenim osobama\n• Redovite sigurnosne provjere i ažuriranja\n\nNikada ne dijelimo vaše podatke s trećim stranama bez vašeg izričitog pristanka."
+      },
+      "cookies": {
+        "title": "Korištenje kolačića",
+        "content": "Naša web stranica koristi kolačiće kako bi vam pružila najbolje korisničko iskustvo:\n\n• Neophodni kolačići - za osnovne funkcije stranice\n• Analitički kolačići - za razumijevanje kako koristite stranicu\n• Funkcijski kolačići - za pamćenje vaših preferenci\n\nMožete kontrolirati kolačiće putem postavki vašeg preglednika."
+      },
+      "yourRights": {
+        "title": "Vaša prava",
+        "content": "Sukladno GDPR uredbi, imate sljedeća prava:\n\n• Pravo pristupa vašim osobnim podacima\n• Pravo na ispravak netočnih podataka\n• Pravo na brisanje podataka (\"pravo na zaborav\")\n• Pravo na ograničenje obrade\n• Pravo na prenosivost podataka\n• Pravo na prigovor\n\nZa ostvarivanje bilo kojeg od ovih prava, kontaktirajte nas."
+      }
+    },
+    "contact": {
+      "title": "Kontakt za privatnost",
+      "description": "Za sva pitanja vezana uz privatnost i zaštitu podataka, kontaktirajte nas:"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Uvjeti korištenja | Produkt Auto",
+      "description": "Pročitajte uvjete korištenja web stranice Produkt Auto. Informacije o kupnji vozila, jamstvu i plaćanju."
+    },
+    "pageTitle": "Uvjeti korištenja",
+    "pageDescription": "Molimo pročitajte ove uvjete pažljivo prije korištenja naše web stranice i usluga.",
+    "lastUpdated": "Verzija 1.0 | Zadnje ažuriranje: Prosinac 2025",
+    "sections": {
+      "general": {
+        "title": "1. Opći uvjeti",
+        "content": "Korištenjem web stranice Produkt Auto j.d.o.o. prihvaćate ove uvjete korištenja. Molimo vas da ih pažljivo pročitate prije korištenja naših usluga.\n\nZadržavamo pravo izmjene ovih uvjeta u bilo kojem trenutku. Nastavak korištenja stranice nakon izmjena smatra se prihvaćanjem novih uvjeta."
+      },
+      "vehicleInfo": {
+        "title": "2. Informacije o vozilima",
+        "content": "Sve informacije o vozilima na našoj stranici pružene su u dobroj vjeri i prema našem najboljem znanju:\n\n• Fotografije vozila su stvarne i aktualne\n• Specifikacije i oprema su provjerene prije objave\n• Cijene su izražene u eurima (€) i uključuju PDV\n• Dostupnost vozila podložna je promjenama\n\nPreporučujemo osobni pregled vozila prije kupnje."
+      },
+      "pricing": {
+        "title": "3. Cijene i plaćanje",
+        "content": "Sve cijene na stranici su informativnog karaktera:\n\n• Konačna cijena utvrđuje se ugovorom o kupoprodaji\n• Rezervacija vozila moguća je uz predujam\n• Prihvaćamo plaćanje gotovinom, karticama i bankovnim transferom\n• Mogućnost financiranja putem leasing kuća\n\nZa detaljne informacije o plaćanju, kontaktirajte našu prodaju."
+      },
+      "warranty": {
+        "title": "4. Jamstvo i reklamacije",
+        "content": "Sva vozila prodana putem naše tvrtke dolaze sa:\n\n• Provjerenom poviješću vozila\n• Jamstvom na motor i mjenjač (ovisno o vozilu)\n• Mogućnošću produljenog jamstva\n• 14-dnevnim pravom na povrat za potrošače\n\nReklamacije se zaprimaju pisanim putem u zakonskom roku."
+      },
+      "liability": {
+        "title": "5. Ograničenje odgovornosti",
+        "content": "Produkt Auto j.d.o.o. ne odgovara za:\n\n• Tipografske greške na stranici\n• Privremenu nedostupnost stranice\n• Štetu nastalu korištenjem informacija sa stranice\n• Odluke donesene na temelju informacija na stranici\n\nTrudimo se održavati točnost svih informacija, ali preporučujemo provjeru prije kupnje."
+      },
+      "disputes": {
+        "title": "6. Rješavanje sporova",
+        "content": "U slučaju spora:\n\n• Prvo pokušavamo riješiti spor mirnim putem\n• Primjenjuje se hrvatsko pravo\n• Nadležan je sud u Zagrebu\n• Potrošači mogu koristiti alternativno rješavanje sporova"
+      }
+    },
+    "questions": {
+      "title": "Imate pitanja?",
+      "description": "Za sva pitanja vezana uz uvjete korištenja, slobodno nas kontaktirajte."
+    }
+  },
+  "metadata": {
+    "title": "Produkt Auto - Kvalitetna rabljena vozila",
+    "description": "Vaš pouzdani partner za kupnju kvalitetnih rabljenih vozila u Hrvatskoj. Pregledajte našu ponudu premium automobila s jamstvom kvalitete.",
+    "keywords": "rabljena vozila, prodaja automobila, auto salon, Zagreb, Hrvatska, BMW, Mercedes, Audi, Volkswagen"
+  }
+}

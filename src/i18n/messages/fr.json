@@ -1,0 +1,672 @@
+{
+  "hero": {
+    "availableVehicles": "VÉHICULES DISPONIBLES",
+    "wholesale": "VENTE EN GROS DE VÉHICULES"
+  },
+  "common": {
+    "nav": {
+      "home": "Accueil",
+      "vehicles": "Véhicules",
+      "wholesale": "Vente en gros",
+      "about": "À propos",
+      "compare": "Comparer",
+      "favorites": "Favoris",
+      "allVehicles": "Tous les véhicules",
+      "contact": "Vente en gros",
+      "compareVehicles": "Comparer les véhicules"
+    },
+    "footer": {
+      "navigation": "Navigation",
+      "contact": "Contact",
+      "workingHours": "Horaires",
+      "schedule": "Planning",
+      "closed": "Fermé",
+      "allRightsReserved": "Tous droits réservés.",
+      "madeInCroatia": "Fabriqué en Croatie",
+      "privacy": "Confidentialité",
+      "terms": "Conditions d’utilisation",
+      "backToTop": "Retour en haut"
+    },
+    "header": {
+      "mainNavigation": "Navigation principale",
+      "openMenu": "Ouvrir le menu de navigation",
+      "closeMenu": "Fermer le menu",
+      "skipToContent": "Aller au contenu principal",
+      "premiumVehicles": "Véhicules premium",
+      "quickAccess": "Accès rapide",
+      "vehiclesSelected": "véhicules sélectionnés",
+      "saved": "enregistrés",
+      "call": "Appeler",
+      "contactViaWhatsApp": "Contactez-nous via WhatsApp"
+    },
+    "theme": {
+      "loading": "Chargement du thème...",
+      "lightMode": "Passer en mode clair",
+      "darkMode": "Passer en mode sombre"
+    },
+    "error": {
+      "title": "Une erreur est survenue",
+      "description": "Une erreur inattendue s'est produite. Veuillez essayer d’actualiser la page ou de revenir à l’accueil.",
+      "refresh": "Actualiser la page",
+      "backToHome": "Retour à l’accueil"
+    },
+    "whatsapp": {
+      "defaultMessage": "Bonjour ! Je suis intéressé par votre offre de véhicules.",
+      "ariaLabel": "Contactez-nous via WhatsApp"
+    },
+    "workingHours": {
+      "weekdays": "Lundi - Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "company": {
+      "name": "Produkt Auto",
+      "tagline": "Votre partenaire fiable pour des véhicules de qualité",
+      "description": "Si vous en avez assez de l’incertitude et des doutes lors de l’achat d’un véhicule d’occasion — vous êtes au bon endroit. Nous proposons uniquement des véhicules vérifiés, soigneusement inspectés, avec une documentation transparente et des prix réalistes."
+    },
+    "notFound": {
+      "title": "Page introuvable",
+      "description": "Malheureusement, la page que vous recherchez n’existe pas ou a été déplacée. Vérifiez l’adresse ou revenez à l’accueil.",
+      "home": "Accueil",
+      "searchVehicles": "Rechercher des véhicules"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Produkt Auto - Véhicules d'occasion de qualité | Meilleurs prix en Croatie",
+      "description": "Vente de véhicules d'occasion avec garantie de qualité. Véhicules vérifiés, historique complet, meilleurs prix. Venez nous voir à Zagreb !"
+    },
+    "hero": {
+      "title": "Véhicules d'occasion de qualité",
+      "subtitle": "Trouvez le véhicule parfait au meilleur prix"
+    },
+    "features": {
+      "title": "Pourquoi nous choisir ?",
+      "subtitle": "Nous nous engageons à offrir la meilleure expérience d’achat. Voici ce qui nous distingue.",
+      "quality": {
+        "title": "Garantie de qualité",
+        "description": "Chaque véhicule passe un contrôle détaillé de plus de 150 points avant d’être proposé."
+      },
+      "transparency": {
+        "title": "Transparence",
+        "description": "Historique complet, documentation et carnet d’entretien disponibles immédiatement."
+      },
+      "support": {
+        "title": "Support expert",
+        "description": "Notre équipe est disponible en semaine pour toutes vos questions et votre accompagnement."
+      }
+    },
+    "cta": {
+      "title": "Prêt à trouver votre prochaine voiture ?",
+      "subtitle": "Venez nous voir ou contactez-nous pour plus d’informations. Nos experts vous aideront à trouver le véhicule idéal.",
+      "contactUs": "Nous contacter"
+    },
+    "map": {
+      "title": "Venez nous rendre visite",
+      "locationTitle": "Emplacement de Produkt Auto",
+      "workingHoursTitle": "Horaires",
+      "companyDescription1": "Si vous en avez assez de l’incertitude lors de l’achat d’un véhicule d’occasion — vous êtes au bon endroit. Nous proposons uniquement des véhicules vérifiés, soigneusement inspectés, avec une documentation transparente et des prix réalistes.",
+      "companyDescription2": "Pas de défauts cachés, pas de mauvaises surprises. Chaque véhicule de notre offre a été inspecté et dispose d’un historique d’entretien complet.",
+      "companyDescription3": "Nous respectons votre temps — achat rapide et simple, sans complications inutiles. Contactez-nous en toute confiance."
+    }
+  },
+  "search": {
+    "manufacturer": "Marque",
+    "model": "Modèle",
+    "year": "Année",
+    "yearFrom": "Année à partir de",
+    "fuel": "Carburant",
+    "fuelType": "Type de carburant",
+    "transmission": "Boîte",
+    "transmissionType": "Type de boîte",
+    "price": "Prix",
+    "moreFilters": "Plus de filtres",
+    "search": "Rechercher",
+    "searchVehicles": "Rechercher des véhicules"
+  },
+  "vehicles": {
+    "pageTitle": "Notre sélection de véhicules",
+    "pageSubtitle": "Trouvez le véhicule idéal parmi notre sélection de {count} voitures de qualité",
+    "searchPlaceholder": "Rechercher par marque, modèle, description...",
+    "pageDescription": "Parcourez notre sélection de véhicules d'occasion de qualité",
+    "searchLabel": "Rechercher des véhicules",
+    "viewModeGrid": "Vue grille",
+    "viewModeList": "Vue liste",
+    "exclusiveOnly": "Uniquement les véhicules exclusifs",
+    "noResults": "Aucun véhicule ne correspond aux filtres",
+    "noResultsDescription": "Essayez de modifier ou de supprimer certains filtres pour voir plus de résultats",
+    "clearFilters": "Effacer les filtres",
+    "clearAllFilters": "Effacer tous les filtres",
+    "filters": "Filtres",
+    "quickFiltersLabel": "Filtres rapides",
+    "brand": "Marque",
+    "allBrands": "Toutes les marques",
+    "fuelType": "Type de carburant",
+    "transmissionType": "Type de boîte",
+    "allTransmissions": "Toutes les boîtes",
+    "price": "Prix",
+    "maxMileage": "Kilométrage maximum",
+    "yearOfProduction": "Année de production",
+    "vehiclesCount": "{count} véhicules",
+    "showingResults": "Affichage de {count} véhicules",
+    "sortBy": "Trier par",
+    "sortNewest": "Les plus récents",
+    "sortPriceAsc": "Prix : croissant",
+    "sortPriceDesc": "Prix : décroissant",
+    "sortYearDesc": "Année : la plus récente d’abord",
+    "sortYearAsc": "Année : la plus ancienne d’abord",
+    "sortMileageAsc": "Kilométrage : le plus faible d’abord",
+    "sortMileage": "Kilométrage",
+    "fuel": {
+      "benzin": "Essence",
+      "dizel": "Diesel",
+      "hibrid": "Hybride",
+      "elektricni": "Électrique"
+    },
+    "transmission": {
+      "rucni": "Manuelle",
+      "automatski": "Automatique"
+    },
+    "colors": {
+      "Crna": "Noir",
+      "Bijela": "Blanc",
+      "Siva": "Gris",
+      "Srebrna": "Argent",
+      "Plava": "Bleu",
+      "Crvena": "Rouge",
+      "Zelena": "Vert",
+      "Smeđa": "Marron",
+      "Bež": "Beige",
+      "Narančasta": "Orange"
+    },
+    "features": {
+      "LED svjetla": "Phares LED",
+      "Kožna sjedala": "Sièges en cuir",
+      "Panoramski krov": "Toit panoramique",
+      "Navigacija": "Navigation",
+      "Parking senzori": "Capteurs de stationnement",
+      "Kamera za vožnju unazad": "Caméra de recul",
+      "Grijana sjedala": "Sièges chauffants",
+      "Automatska klima": "Climatisation automatique",
+      "Tempomat": "Régulateur de vitesse",
+      "Adaptivni tempomat": "Régulateur adaptatif",
+      "Električna sjedala": "Sièges électriques",
+      "Automatsko parkiranje": "Stationnement automatique",
+      "Upozorenje pri promjeni trake": "Alerte de franchissement de ligne",
+      "Head-up display": "Affichage tête haute",
+      "Harman Kardon zvučnici": "Haut-parleurs Harman Kardon",
+      "Bose zvučnici": "Haut-parleurs Bose",
+      "Apple CarPlay": "Apple CarPlay",
+      "Android Auto": "Android Auto",
+      "Bežično punjenje": "Charge sans fil",
+      "Ambijentalno osvjetljenje": "Éclairage d’ambiance",
+      "Sportska sjedala": "Sièges sport",
+      "M paket": "Pack M",
+      "S-line paket": "Pack S-line"
+    },
+    "card": {
+      "exclusive": "Exclusif",
+      "featured": "Mis en avant",
+      "savings": "Économie",
+      "viewDetails": "Voir les détails",
+      "compare": "Comparer",
+      "addToFavorites": "Ajouter aux favoris",
+      "removeFromFavorites": "Retirer des favoris",
+      "year": "Année",
+      "mileage": "Kilométrage",
+      "power": "Puissance",
+      "km": "km",
+      "addedToCompare": "{brand} {model} ajouté à la comparaison",
+      "maxCompareReached": "Vous pouvez comparer jusqu’à 3 véhicules"
+    },
+    "detail": {
+      "backToVehicles": "Retour aux véhicules",
+      "description": "Description",
+      "specifications": "Spécifications",
+      "features": "Équipements",
+      "contactSeller": "Contacter le vendeur",
+      "requestInfo": "Demander des informations",
+      "shareVehicle": "Partager le véhicule",
+      "linkCopied": "Lien copié dans le presse-papiers",
+      "gallery": "Galerie",
+      "previousImage": "Image précédente",
+      "nextImage": "Image suivante",
+      "financing": "Financement"
+    },
+    "quickView": {
+      "moreImages": "de plus",
+      "price": "Prix",
+      "fuel": "Carburant",
+      "transmission": "Boîte",
+      "inComparison": "Dans la comparaison",
+      "addToCompare": "Ajouter à la comparaison",
+      "viewAllDetails": "Voir tous les détails"
+    },
+    "quickFilters": {
+      "luxury": "Luxe",
+      "economy": "Économique",
+      "commercial": "Utilitaire"
+    },
+    "listView": {
+      "details": "Détails"
+    },
+    "imageNotAvailable": "Image non disponible",
+    "addToCompare": "Ajouter à la comparaison",
+    "removeFromCompare": "Retirer de la comparaison",
+    "addedToCompare": "{brand} {model} ajouté à la comparaison",
+    "removedFromCompare": "{brand} {model} retiré de la comparaison",
+    "addToFavorites": "Ajouter aux favoris",
+    "removeFromFavorites": "Retirer des favoris",
+    "addedToFavorites": "{brand} {model} ajouté aux favoris",
+    "removedFromFavorites": "{brand} {model} retiré des favoris",
+    "maxCompare": "Vous pouvez comparer jusqu’à 3 véhicules",
+    "quickViewButton": "Aperçu"
+  },
+  "compareBar": {
+    "vehicleComparison": "Comparaison de véhicules",
+    "selectedCount": "{count} sur {max} véhicules sélectionnés",
+    "removeVehicle": "Retirer {brand} {model}",
+    "clear": "Vider",
+    "compare": "Comparer",
+    "compareWithCount": "Comparer ({count})"
+  },
+  "compare": {
+    "pageTitle": "Comparer les véhicules",
+    "pageDescription": "Comparez jusqu’à 3 véhicules à la fois",
+    "emptyTitle": "Aucun véhicule à comparer",
+    "emptyDescription": "Ajoutez des véhicules en cliquant sur l’icône de comparaison sur les cartes. Vous pouvez comparer jusqu’à 3 véhicules et voir les spécifications côte à côte.",
+    "browseVehicles": "Parcourir les véhicules",
+    "remove": "Retirer",
+    "maxVehicles": "Vous pouvez comparer jusqu’à 3 véhicules",
+    "addedToCompare": "ajouté à la comparaison",
+    "removedFromCompare": "retiré de la comparaison",
+    "loading": "Chargement...",
+    "comparingCount": "Comparaison de {count} sur 3 véhicules possibles",
+    "addVehicle": "Ajouter un véhicule",
+    "clearAll": "Tout effacer",
+    "quickOverview": "Aperçu rapide",
+    "lowestPrice": "Prix le plus bas",
+    "newest": "Le plus récent",
+    "lowestMileage": "Kilométrage le plus faible",
+    "addVehicleForComparison": "Ajouter un véhicule à comparer",
+    "featured": "Mis en avant",
+    "features": "Équipements",
+    "ctaTitle": "Vous avez trouvé un véhicule qui vous plaît ?",
+    "ctaDescription": "Contactez-nous pour plus d’informations ou pour planifier une visite.",
+    "contactUs": "Nous contacter",
+    "meta": {
+      "title": "Comparer les véhicules | Produkt Auto",
+      "description": "Comparez jusqu’à 3 véhicules côte à côte. Consultez spécifications, prix et équipements en un seul endroit."
+    },
+    "specs": {
+      "price": "Prix",
+      "year": "Année",
+      "mileage": "Kilométrage",
+      "fuel": "Carburant",
+      "transmission": "Boîte",
+      "power": "Puissance",
+      "color": "Couleur"
+    }
+  },
+  "favorites": {
+    "meta": {
+      "title": "Mes favoris | Produkt Auto",
+      "description": "Consultez vos véhicules enregistrés. Comparez vos favoris et trouvez la voiture idéale."
+    },
+    "pageTitle": "Mes favoris",
+    "pageDescription": "Vos véhicules enregistrés",
+    "emptyTitle": "Aucun favori enregistré",
+    "emptyDescription": "Parcourez notre sélection et ajoutez des véhicules aux favoris en cliquant sur l’icône cœur. Vos voitures préférées seront enregistrées ici.",
+    "browseVehicles": "Parcourir les véhicules",
+    "backToVehicles": "Retour à tous les véhicules",
+    "clearAll": "Tout effacer",
+    "vehicleCount": "{count, plural, one {# véhicule} other {# véhicules}}",
+    "loading": "Chargement...",
+    "addedToFavorites": "ajouté aux favoris",
+    "removedFromFavorites": "retiré des favoris"
+  },
+  "about": {
+    "meta": {
+      "title": "À propos | Produkt Auto - Véhicules d'occasion de qualité",
+      "description": "Découvrez Produkt Auto — votre partenaire fiable pour des véhicules d'occasion de qualité. Plus de 10 ans d'expérience dans la vente automobile."
+    },
+    "pageTitle": "À propos",
+    "pageDescription": "Découvrez Produkt Auto — votre partenaire fiable pour des véhicules de qualité",
+    "hero": {
+      "title": "À propos",
+      "subtitle": "Votre partenaire fiable pour des véhicules de qualité depuis plus de 10 ans",
+      "yourPartner": "Votre partenaire fiable"
+    },
+    "stats": {
+      "verified": {
+        "label": "Véhicules vérifiés",
+        "sublabel": "avec documentation"
+      },
+      "warranty": {
+        "value": "12 mois",
+        "label": "Protection G1",
+        "sublabel": "garantie moteur"
+      },
+      "financing": {
+        "value": "Crédit",
+        "label": "Financement",
+        "sublabel": "banques leaders"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Support",
+        "sublabel": "même après l’achat"
+      }
+    },
+    "values": {
+      "title": "Pourquoi choisir Produkt Auto ?",
+      "verified": {
+        "title": "Véhicules vérifiés",
+        "description": "Tous les véhicules disposent d’un historique vérifié et d’une documentation d’entretien complète."
+      },
+      "warranty": {
+        "title": "Garantie d’origine et protection G1",
+        "description": "Nous offrons une garantie d’origine pour chaque véhicule. Vous pouvez également activer une garantie moteur et boîte (prolongée) jusqu’à 12 mois pour plus de sécurité et de tranquillité après l’achat."
+      },
+      "financing": {
+        "title": "Options de financement",
+        "description": "Options de financement flexibles via des banques de premier plan."
+      },
+      "support": {
+        "title": "Accompagnement après l’achat",
+        "description": "Nous restons disponibles pour vos questions et conseils même après la livraison du véhicule."
+      },
+      "trust": {
+        "title": "Confiance",
+        "description": "Nous construisons des relations durables avec nos clients"
+      },
+      "quality": {
+        "title": "Qualité",
+        "description": "Seuls les meilleurs véhicules passent notre sélection"
+      },
+      "transparency": {
+        "title": "Transparence",
+        "description": "Documentation et historique complets pour chaque véhicule"
+      },
+      "service": {
+        "title": "Service",
+        "description": "Un accompagnement professionnel du début à la fin"
+      }
+    },
+    "retail": {
+      "title": "Vente au détail",
+      "subtitle": "Pour les particuliers",
+      "description": "Nous offrons un achat sûr et transparent — chaque véhicule est contrôlé en profondeur, sans défauts cachés ni mauvaises surprises.",
+      "highlight": "Si l’incertitude vous fatigue lors de l’achat d’une voiture d’occasion, vous êtes au bon endroit.",
+      "browseVehicles": "Parcourir les véhicules",
+      "features": {
+        "history": {
+          "title": "Historique vérifié",
+          "description": "Documentation complète et historique d’entretien transparent"
+        },
+        "noSurprises": {
+          "title": "Pas de surprises",
+          "description": "Inspection approfondie de chaque véhicule avant la vente"
+        },
+        "safePurchase": {
+          "title": "Achat sûr",
+          "description": "Prix réalistes, sans défauts cachés"
+        }
+      }
+    },
+    "wholesale": {
+      "title": "Vente en gros",
+      "subtitle": "Pour les concessionnaires et partenaires",
+      "description": "Nous proposons une coopération fiable à tous les concessionnaires et partenaires à la recherche de véhicules de qualité à des prix compétitifs.",
+      "becomePartner": "Devenir partenaire",
+      "features": {
+        "prices": {
+          "title": "Prix compétitifs",
+          "description": "Prix de gros adaptés aux concessionnaires"
+        },
+        "cooperation": {
+          "title": "Coopération flexible",
+          "description": "Partenariat axé sur la croissance mutuelle"
+        },
+        "support": {
+          "title": "Support",
+          "description": "Accompagnement continu pour de meilleurs résultats"
+        }
+      }
+    },
+    "philosophy": {
+      "title": "Notre philosophie",
+      "description": "Approche honnête, transparence et coopération à long terme",
+      "subtitle": "Ce sont les bases sur lesquelles nous construisons la confiance avec nos clients et partenaires."
+    },
+    "wholesaleCard": {
+      "subtitle": "Pour les professionnels",
+      "description": "Produkt Auto est un partenaire fiable pour les concessionnaires actuels et futurs en Croatie. Nous proposons des prix de gros compétitifs, une coopération flexible et un accompagnement dans le but de",
+      "descriptionHighlight": "croissance mutuelle et de meilleurs résultats dans l’industrie automobile.",
+      "contactUs": "Nous contacter"
+    },
+    "cta": {
+      "title": "Prêt pour une coopération ?",
+      "description": "Que vous cherchiez un véhicule fiable ou que vous soyez un professionnel à la recherche d’un partenaire fiable, nous sommes là pour vous.",
+      "viewVehicles": "Voir les véhicules",
+      "becomePartner": "Devenir partenaire"
+    },
+    "valuesSubtitle": "Votre sécurité et votre satisfaction sont nos priorités.",
+    "companyDescription": "Nous sommes spécialisés dans l’import, la vente au détail et la vente en gros de véhicules d’occasion vérifiés. Notre priorité : des véhicules fiables, avec documentation complète, historique vérifié et prix réalistes."
+  },
+  "contact": {
+    "pageTitle": "Vente en gros",
+    "pageDescription": "Devenez notre partenaire — offre spéciale pour les concessionnaires",
+    "hero": {
+      "badge": "Vente en gros de véhicules",
+      "title": "Devenez notre partenaire",
+      "subtitle": "Que vous soyez déjà actif ou que vous débutiez dans l’industrie automobile, Produkt Auto vous propose un partenariat fiable, des prix de gros compétitifs et un accompagnement axé sur le succès commun."
+    },
+    "form": {
+      "title": "Demander un devis",
+      "subtitle": "Remplissez le formulaire et nous vous répondrons rapidement",
+      "name": "Nom complet",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "budget": "Budget",
+      "selectBudget": "Sélectionner un budget",
+      "message": "Votre message",
+      "messagePlaceholder": "Décrivez ce qui vous intéresse...",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi...",
+      "success": "Votre message a été envoyé avec succès !",
+      "error": "Erreur lors de l’envoi du message",
+      "pleaseWait": "Veuillez patienter avant de renvoyer",
+      "fixErrors": "Veuillez corriger les erreurs du formulaire",
+      "formHasErrors": "Le formulaire contient {count} erreur",
+      "formHasErrorsPlural": "Le formulaire contient {count} erreurs",
+      "thankYou": "Merci pour votre demande !",
+      "successMessage": "Votre demande a bien été reçue. Nous vous répondrons dès que possible."
+    },
+    "info": {
+      "whyWorkWithUs": "Pourquoi travailler avec nous ?",
+      "benefits": {
+        "prices": "Prix de gros compétitifs",
+        "terms": "Conditions de coopération flexibles",
+        "selection": "Large sélection de véhicules vérifiés",
+        "delivery": "Livraison rapide et fiable",
+        "support": "Support axé sur votre réussite"
+      },
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "address": "Adresse",
+      "workingHours": "Horaires",
+      "responseTime": "Réponse sous 24 h",
+      "partnerBenefits": "Avantages partenaires",
+      "contactInfo": "Informations de contact",
+      "location": "Emplacement"
+    },
+    "cta": {
+      "title": "Des questions ?",
+      "description": "N’hésitez pas à nous contacter par téléphone ou par e-mail — nous répondrons avec plaisir à toutes vos questions sur la vente en gros.",
+      "callUs": "Appelez-nous",
+      "sendEmail": "Envoyer un e-mail"
+    },
+    "budget": {
+      "upTo15k": "Jusqu’à 15 000 €",
+      "15kTo25k": "15 000 € - 25 000 €",
+      "25kTo40k": "25 000 € - 40 000 €",
+      "40kTo60k": "40 000 € - 60 000 €",
+      "over60k": "Plus de 60 000 €"
+    }
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "minLength": "Minimum {count} caractères",
+    "maxLength": "Maximum {count} caractères",
+    "invalidEmail": "Adresse e-mail invalide",
+    "invalidPhone": "Numéro de téléphone invalide",
+    "nameMinLength": "Le nom doit contenir au moins 2 caractères",
+    "nameMaxLength": "Le nom ne doit pas dépasser 100 caractères",
+    "messageMinLength": "Le message doit contenir au moins 10 caractères",
+    "messageMaxLength": "Le message ne doit pas dépasser 1000 caractères"
+  },
+  "calculator": {
+    "title": "Calculateur de financement",
+    "downPayment": "Apport",
+    "numberOfInstallments": "Nombre de mensualités",
+    "annualInterestRate": "Taux d’intérêt annuel",
+    "loanAmount": "Montant du prêt",
+    "interestRate": "Taux d’intérêt",
+    "loanTerm": "Durée du prêt",
+    "months": "mois",
+    "monthsShort": "m.",
+    "monthlyPayment": "Mensualité",
+    "totalPayment": "Montant total",
+    "totalInterest": "Intérêts totaux",
+    "totalToPay": "Total à payer",
+    "calculate": "Calculer",
+    "copied": "Calcul copié !",
+    "copyError": "Erreur de copie",
+    "comparisonTitle": "Comparaison des options de financement",
+    "monthly": "mensuel",
+    "copyCalculation": "Copier le calcul",
+    "disclaimer": "Ce calcul est indicatif. Les conditions réelles peuvent varier selon la banque et votre solvabilité. Contactez-nous pour une offre précise.",
+    "clipboardSummary": "Calculateur de financement\n\nPrix du véhicule : {price}\nApport : {downPayment} ({percentage}%)\nNombre de mensualités : {installments} mois\nTaux d’intérêt : {rate}%\n\nMontant du prêt : {loanAmount}\nMensualité : {monthlyPayment}\nIntérêts totaux : {totalInterest}\nTotal à payer : {totalToPay}"
+  },
+  "recentlyViewed": {
+    "title": "Récemment consultés",
+    "allVehicles": "Tous les véhicules"
+  },
+  "exclusive": {
+    "title": "Offre exclusive",
+    "subtitle": "Véhicules soigneusement sélectionnés à des prix avantageux",
+    "description": "Des véhicules sélectionnés répondant à des standards élevés de qualité et de fiabilité — désormais à des prix étudiés permettant de vraies économies.",
+    "viewAll": "Tout voir",
+    "viewAllOffers": "Voir toutes les offres"
+  },
+  "trust": {
+    "warranty": "Garantie 12 mois",
+    "verified": "Vérifié",
+    "quality": {
+      "title": "Garantie de qualité",
+      "description": "Chaque véhicule subit une inspection détaillée de plus de 150 points."
+    },
+    "history": {
+      "title": "Historique transparent",
+      "description": "Documentation complète et historique d’entretien disponibles immédiatement."
+    },
+    "serviced": {
+      "title": "Véhicules révisés",
+      "description": "Tous les véhicules sont entretenus et préparés pour une conduite en toute sécurité."
+    },
+    "exchange": {
+      "title": "Échange sous 30 jours",
+      "description": "Pas satisfait ? Échangez votre véhicule sous 30 jours."
+    },
+    "experience": {
+      "title": "Plus de 10 ans d’expérience",
+      "description": "Plus de 500 clients satisfaits et des recommandations en hausse."
+    }
+  },
+  "gallery": {
+    "image": "Image",
+    "previousImage": "Image précédente",
+    "nextImage": "Image suivante",
+    "imageGallery": "Galerie d’images",
+    "imageOf": "Image {current} sur {total}",
+    "closeGallery": "Fermer la galerie (Échap)",
+    "galleryNavigation": "Navigation de la galerie",
+    "showImage": "Afficher l’image {number}"
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de confidentialité | Produkt Auto",
+      "description": "Découvrez comment Produkt Auto protège vos données personnelles. Conformité RGPD et sécurité des données."
+    },
+    "pageTitle": "Politique de confidentialité",
+    "pageDescription": "Votre vie privée est importante. Découvrez comment nous collectons, utilisons et protégeons vos données.",
+    "lastUpdated": "Dernière mise à jour : décembre 2025",
+    "sections": {
+      "dataCollection": {
+        "title": "Collecte de données",
+        "content": "Nous collectons uniquement les données nécessaires pour fournir nos services. Cela inclut :\n\n• Nom et prénom\n• Adresse e-mail\n• Numéro de téléphone\n• Informations sur les véhicules qui vous intéressent\n\nToutes les données sont collectées uniquement avec votre consentement et utilisées exclusivement à la fin prévue."
+      },
+      "dataProtection": {
+        "title": "Protection des données",
+        "content": "Vos données personnelles sont protégées par des mesures de sécurité modernes :\n\n• Chiffrement SSL pour toutes les communications\n• Stockage sécurisé des données\n• Accès limité aux personnes autorisées\n• Audits de sécurité réguliers et mises à jour\n\nNous ne partageons jamais vos données avec des tiers sans votre consentement explicite."
+      },
+      "cookies": {
+        "title": "Utilisation des cookies",
+        "content": "Notre site utilise des cookies afin de vous offrir la meilleure expérience :\n\n• Cookies essentiels — pour les fonctionnalités de base\n• Cookies d’analyse — pour comprendre l’utilisation du site\n• Cookies fonctionnels — pour mémoriser vos préférences\n\nVous pouvez contrôler les cookies via les paramètres de votre navigateur."
+      },
+      "yourRights": {
+        "title": "Vos droits",
+        "content": "Conformément au RGPD, vous disposez des droits suivants :\n\n• Droit d’accès à vos données\n• Droit de rectification\n• Droit à l’effacement (\"droit à l’oubli\")\n• Droit à la limitation du traitement\n• Droit à la portabilité\n• Droit d’opposition\n\nPour exercer ces droits, veuillez nous contacter."
+      }
+    },
+    "contact": {
+      "title": "Contact confidentialité",
+      "description": "Pour toute question relative à la confidentialité et à la protection des données, contactez-nous :"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Conditions d’utilisation | Produkt Auto",
+      "description": "Consultez les conditions d’utilisation du site Produkt Auto. Informations sur l’achat de véhicules, la garantie et le paiement."
+    },
+    "pageTitle": "Conditions d’utilisation",
+    "pageDescription": "Veuillez lire attentivement ces conditions avant d’utiliser notre site et nos services.",
+    "lastUpdated": "Version 1.0 | Dernière mise à jour : décembre 2025",
+    "sections": {
+      "general": {
+        "title": "1. Conditions générales",
+        "content": "En utilisant le site de Produkt Auto j.d.o.o., vous acceptez les présentes conditions d’utilisation. Veuillez les lire attentivement avant d’utiliser nos services.\n\nNous nous réservons le droit de modifier ces conditions à tout moment. L’utilisation continue du site après modification vaut acceptation des nouvelles conditions."
+      },
+      "vehicleInfo": {
+        "title": "2. Informations sur les véhicules",
+        "content": "Toutes les informations sur les véhicules figurant sur notre site sont fournies de bonne foi et au mieux de nos connaissances :\n\n• Les photos des véhicules sont réelles et actuelles\n• Les spécifications et équipements sont vérifiés avant publication\n• Les prix sont en euros (€) et incluent la TVA\n• La disponibilité des véhicules peut changer\n\nNous recommandons une inspection personnelle du véhicule avant achat."
+      },
+      "pricing": {
+        "title": "3. Prix et paiement",
+        "content": "Tous les prix affichés sur le site sont indicatifs :\n\n• Le prix final est défini par le contrat de vente\n• La réservation d’un véhicule est possible avec un acompte\n• Nous acceptons les paiements en espèces, par carte et par virement\n• Financement disponible via des organismes de leasing\n\nPour plus d’informations sur le paiement, contactez notre équipe commerciale."
+      },
+      "warranty": {
+        "title": "4. Garantie et réclamations",
+        "content": "Tous les véhicules vendus par notre société incluent :\n\n• Historique du véhicule vérifié\n• Garantie moteur et boîte (selon le véhicule)\n• Options de garantie prolongée\n• Droit de retour de 14 jours pour les consommateurs\n\nLes réclamations sont acceptées par écrit dans le délai légal."
+      },
+      "liability": {
+        "title": "5. Limitation de responsabilité",
+        "content": "Produkt Auto j.d.o.o. n’est pas responsable :\n\n• Des erreurs typographiques sur le site\n• D’une indisponibilité temporaire du site\n• Des dommages résultant de l’utilisation des informations du site\n• Des décisions prises sur la base des informations du site\n\nNous nous efforçons d’assurer l’exactitude des informations, mais recommandons toujours de les vérifier avant achat."
+      },
+      "disputes": {
+        "title": "6. Règlement des litiges",
+        "content": "En cas de litige :\n\n• Nous tentons d’abord une résolution amiable\n• Le droit croate s’applique\n• Le tribunal de Zagreb est compétent\n• Les consommateurs peuvent recourir à des modes alternatifs de règlement"
+      }
+    },
+    "questions": {
+      "title": "Des questions ?",
+      "description": "Pour toute question concernant les conditions d’utilisation, n’hésitez pas à nous contacter."
+    }
+  },
+  "metadata": {
+    "title": "Produkt Auto - Véhicules d'occasion de qualité",
+    "description": "Votre partenaire fiable pour acheter des véhicules d'occasion de qualité en Croatie. Découvrez notre sélection de voitures premium avec garantie de qualité.",
+    "keywords": "véhicules d'occasion, vente de voitures, concessionnaire, Zagreb, Croatie, BMW, Mercedes, Audi, Volkswagen"
+  }
+}

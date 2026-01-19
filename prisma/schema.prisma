@@ -1,0 +1,47 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "sqlite"
+  // Using hardcoded URL to avoid environment variable issues in local dev
+  url       = "file:./data/app.db"
+}
+
+model Vehicle {
+  id               String        @id
+  naziv            String
+  marka            String
+  model            String
+  godina           Int
+  cijena           Int
+  staracijena      Int?
+  kilometraza      Int
+  gorivo           String
+  mjenjac          String
+  snaga            Int
+  boja             String
+  opis             String
+  karakteristike   Json
+  istaknuto        Boolean       @default(false)
+  ekskluzivno      Boolean       @default(false)
+  ekskluzivnoOrder Int?
+  datumObjave      DateTime      @default(now())
+
+  images           VehicleImage[]
+
+  @@index([ekskluzivno, ekskluzivnoOrder])
+  @@index([datumObjave])
+}
+
+model VehicleImage {
+  id        String  @id @default(cuid())
+  vehicleId String
+  url       String
+  order     Int     @default(0)
+  alt       String?
+
+  vehicle   Vehicle @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+
+  @@index([vehicleId, order])
+}

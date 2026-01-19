@@ -1,0 +1,431 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Core semantic colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Surfaces */
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  /* Brand & Interactive */
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-light: var(--primary-light);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-premium: var(--premium);
+  --color-premium-foreground: var(--premium-foreground);
+
+  /* Muted & Subtle */
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  /* Semantic Feedback */
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+
+  /* Interactive States */
+  --color-favorite: var(--favorite);
+  --color-favorite-foreground: var(--favorite-foreground);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-foreground: var(--whatsapp-foreground);
+
+  /* Savings & Pricing */
+  --color-savings: var(--savings);
+  --color-savings-foreground: var(--savings-foreground);
+  --color-savings-label: var(--savings-label);
+  --color-savings-muted: var(--savings-muted);
+
+  /* Borders & Inputs */
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Charts */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Sidebar */
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Radius */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* Layout coordination variables */
+  --container-sm: 640px;
+  --container-md: 1024px;
+  --container-lg: 1280px;
+  --compare-bar-height: 0px;
+  --header-height: 4rem;
+  --header-height-md: 5rem;
+
+  /* 
+   * LIGHT MODE - OPTION B: Warm Zinc Base + Sapphire Accent
+   * Natural, professional palette with strong hierarchy
+   * WCAG AA compliant contrast ratios
+   */
+
+  /* Backgrounds - Warm off-white, inviting, not sterile */
+  --background: oklch(0.982 0.004 80);
+  --foreground: oklch(0.2 0.025 250);
+
+  /* Cards & Surfaces - Subtle warmth, not pure white */
+  --card: oklch(0.996 0.002 80);
+  --card-foreground: oklch(0.2 0.025 250);
+  --popover: oklch(0.996 0.002 80);
+  --popover-foreground: oklch(0.2 0.025 250);
+
+  /* Primary: Warm Navy - Trustworthy, deep, approachable */
+  --primary: oklch(0.26 0.055 250);
+  --primary-foreground: oklch(0.98 0.005 80);
+  --primary-light: oklch(0.96 0.01 250);
+
+  /* Secondary: Slate blue - Professional, honest */
+  --secondary: oklch(0.92 0.008 250);
+  --secondary-foreground: oklch(0.28 0.04 250);
+
+  /* Accent: Sapphire Blue - Calm, trustworthy CTAs */
+  --accent: oklch(0.52 0.17 248);
+  --accent-foreground: oklch(0.98 0.005 80);
+
+  /* Premium: Gold - Exclusive offers badge */
+  --premium: oklch(0.68 0.16 50);
+  --premium-foreground: oklch(0.18 0.02 50);
+
+  /* Muted: Warm grays - friendly, not cold corporate */
+  --muted: oklch(0.96 0.006 80);
+  --muted-foreground: oklch(0.44 0.02 250);
+
+  /* Semantic: Destructive */
+  --destructive: oklch(0.55 0.22 28);
+  --destructive-foreground: oklch(0.98 0.005 80);
+
+  /* Semantic: Success */
+  --success: oklch(0.55 0.16 150);
+  --success-foreground: oklch(0.98 0.005 80);
+
+  /* Semantic: Warning (NEW) */
+  --warning: oklch(0.75 0.14 70);
+  --warning-foreground: oklch(0.22 0.03 70);
+
+  /* Semantic: Info (NEW) */
+  --info: oklch(0.58 0.14 245);
+  --info-foreground: oklch(0.98 0.005 80);
+
+  /* Interactive: Favorite heart (NEW) */
+  --favorite: oklch(0.58 0.24 18);
+  --favorite-foreground: oklch(0.98 0.005 80);
+
+  /* Interactive: WhatsApp brand (NEW) */
+  --whatsapp: oklch(0.62 0.185 145);
+  --whatsapp-foreground: oklch(0.98 0.005 80);
+
+  /* Savings: Elegant professional green for discounts */
+  --savings: oklch(0.48 0.14 155);
+  --savings-foreground: oklch(0.98 0.005 80);
+  --savings-label: oklch(0.55 0.08 80);
+  --savings-muted: oklch(0.94 0.035 155);
+
+  /* Borders & Inputs */
+  --border: oklch(0.9 0.012 250);
+  --input: oklch(0.9 0.012 250);
+  --ring: oklch(0.52 0.17 248 / 0.5);
+
+  /* Scrollbar tokens */
+  --scrollbar-thumb: oklch(0.65 0.08 250);
+  --scrollbar-thumb-hover: oklch(0.55 0.12 250);
+
+  /* Chart colors - Blue monochromatic */
+  --chart-1: oklch(0.25 0.07 250);
+  --chart-2: oklch(0.55 0.19 250);
+  --chart-3: oklch(0.45 0.08 250);
+  --chart-4: oklch(0.65 0.14 250);
+  --chart-5: oklch(0.35 0.06 250);
+
+  /* Sidebar - Dark navy variant */
+  --sidebar: oklch(0.2 0.055 250);
+  --sidebar-foreground: oklch(0.98 0.005 80);
+  --sidebar-primary: oklch(0.55 0.18 248);
+  --sidebar-primary-foreground: oklch(0.98 0.005 80);
+  --sidebar-accent: oklch(0.28 0.05 250);
+  --sidebar-accent-foreground: oklch(0.98 0.005 80);
+  --sidebar-border: oklch(0.32 0.04 250);
+  --sidebar-ring: oklch(0.55 0.18 248);
+}
+
+.dark {
+  /* 
+   * DARK MODE (DEFAULT) - OPTION B: Zinc/Charcoal Base + Warm Sapphire
+   * Premium automotive feel with WCAG AA+ compliance
+   * Natural, comfortable contrast - no harsh pure blacks
+   */
+
+  /* Backgrounds - Deep charcoal, not pure black */
+  --background: oklch(0.13 0.01 250);
+  --foreground: oklch(0.95 0.008 80);
+
+  /* Cards & Surfaces - More elevated for clear distinction */
+  --card: oklch(0.22 0.018 250);
+  --card-foreground: oklch(0.95 0.008 80);
+  --popover: oklch(0.2 0.016 250);
+  --popover-foreground: oklch(0.95 0.008 80);
+
+  /* Primary: Deep navy for sections */
+  --primary: oklch(0.2 0.05 250);
+  --primary-foreground: oklch(0.98 0.005 80);
+  --primary-light: oklch(0.18 0.035 250);
+
+  /* Secondary: Medium charcoal */
+  --secondary: oklch(0.24 0.02 250);
+  --secondary-foreground: oklch(0.92 0.008 80);
+
+  /* Accent: Bright sapphire for CTAs */
+  --accent: oklch(0.6 0.19 248);
+  --accent-foreground: oklch(0.98 0.005 80);
+
+  /* Premium: Warm gold for exclusivity */
+  --premium: oklch(0.72 0.15 55);
+  --premium-foreground: oklch(0.15 0.02 55);
+
+  /* Muted: Subtle elevation */
+  --muted: oklch(0.2 0.012 250);
+  --muted-foreground: oklch(0.7 0.012 250);
+
+  /* Semantic: Destructive */
+  --destructive: oklch(0.6 0.22 28);
+  --destructive-foreground: oklch(0.98 0.005 80);
+
+  /* Semantic: Success */
+  --success: oklch(0.62 0.17 150);
+  --success-foreground: oklch(0.98 0.005 80);
+
+  /* Semantic: Warning */
+  --warning: oklch(0.78 0.14 70);
+  --warning-foreground: oklch(0.2 0.03 70);
+
+  /* Semantic: Info */
+  --info: oklch(0.62 0.15 245);
+  --info-foreground: oklch(0.98 0.005 80);
+
+  /* Interactive: Favorite heart */
+  --favorite: oklch(0.62 0.25 18);
+  --favorite-foreground: oklch(0.98 0.005 80);
+
+  /* Interactive: WhatsApp brand */
+  --whatsapp: oklch(0.66 0.185 145);
+  --whatsapp-foreground: oklch(0.98 0.005 80);
+
+  /* Savings: Elegant, professional pricing colors */
+  --savings: oklch(0.72 0.14 155);
+  --savings-foreground: oklch(0.15 0.02 155);
+  --savings-label: oklch(0.78 0.08 80);
+  --savings-muted: oklch(0.24 0.025 155);
+
+  /* Borders & Inputs - More visible for card separation */
+  --border: oklch(0.32 0.02 250);
+  --input: oklch(0.24 0.02 250);
+  --ring: oklch(0.6 0.19 248 / 0.5);
+
+  /* Scrollbar tokens */
+  --scrollbar-thumb: oklch(0.4 0.1 250);
+  --scrollbar-thumb-hover: oklch(0.5 0.14 250);
+
+  /* Charts - Adjusted for dark backgrounds */
+  --chart-1: oklch(0.55 0.15 250);
+  --chart-2: oklch(0.6 0.19 248);
+  --chart-3: oklch(0.5 0.12 250);
+  --chart-4: oklch(0.65 0.1 250);
+  --chart-5: oklch(0.4 0.08 250);
+
+  /* Sidebar */
+  --sidebar: oklch(0.12 0.015 250);
+  --sidebar-foreground: oklch(0.95 0.008 80);
+  --sidebar-primary: oklch(0.6 0.19 248);
+  --sidebar-primary-foreground: oklch(0.98 0.005 80);
+  --sidebar-accent: oklch(0.18 0.02 250);
+  --sidebar-accent-foreground: oklch(0.95 0.008 80);
+  --sidebar-border: oklch(0.24 0.02 250);
+  --sidebar-ring: oklch(0.6 0.19 248);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  /* IMPROVED: WCAG-compliant focus indicators */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Layout utilities */
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-bottom-spacing {
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+  }
+
+  .scroll-mt-header {
+    scroll-margin-top: calc(var(--header-height) + 1rem);
+  }
+
+  @media (min-width: 768px) {
+    .scroll-mt-header {
+      scroll-margin-top: calc(var(--header-height-md) + 1rem);
+    }
+  }
+
+  /* Touch target minimum size */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Dynamic viewport height for mobile */
+  .min-h-dvh {
+    min-height: 100dvh;
+  }
+}
+
+/* Shimmer animation for skeleton loaders */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.5s infinite;
+}
+
+/* Hero search select placeholder - force white text on dark hero */
+.hero-select-trigger[data-placeholder] > span {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.hero-select-trigger svg {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  z-index: 100;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 0 0 0.5rem 0;
+  font-weight: 600;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* GPU acceleration for animations - better performance */
+.will-change-transform {
+  will-change: transform;
+}
+
+.will-change-opacity {
+  will-change: opacity;
+}
+
+/* Optimize Framer Motion performance */
+[data-framer-appear-id] {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Reduce motion for users who prefer it (accessibility & performance) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom Scrollbar Styling */
+.filter-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+.filter-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.filter-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+.filter-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    var(--accent) 0%,
+    var(--scrollbar-thumb) 100%
+  );
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.filter-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    var(--accent) 20%,
+    var(--scrollbar-thumb-hover) 80%
+  );
+  box-shadow: 0 0 8px var(--accent);
+}
