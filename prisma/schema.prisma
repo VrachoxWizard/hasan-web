@@ -3,9 +3,9 @@ generator client {
 }
 
 datasource db {
-  provider  = "sqlite"
-  // Using hardcoded URL to avoid environment variable issues in local dev
-  url       = "file:./data/app.db"
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL_UNPOOLED")
 }
 
 model Vehicle {

@@ -56,3 +56,6 @@ next-env.d.ts
 # deployment artifacts
 *.zip
 *.tar.gz
+
+.vercel
+.env*.local
