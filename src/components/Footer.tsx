@@ -153,7 +153,7 @@ export default function Footer() {
                   <FileText className="w-4 h-4 text-accent" />
                 </div>
                 <span className="text-white/80 group-hover:text-white transition-colors">
-                  VAT: {CONTACT.address.vat}
+                  🏢 VAT: {CONTACT.address.vat}
                 </span>
               </div>
             </div>

@@ -28,7 +28,7 @@ export default function HomeMap() {
                 <span>{CONTACT.address.full}</span>
               </div>
               <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                <span>VAT: {CONTACT.address.vat}</span>
+                <span>🏢 VAT: {CONTACT.address.vat}</span>
               </div>
             </div>
           </div>

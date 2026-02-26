@@ -73,7 +73,7 @@ export default function KontaktPage() {
       {
         icon: Euro,
         titleKey: "info.vat",
-        content: CONTACT.address.vat,
+        content: `🏢 ${CONTACT.address.vat}`,
         href: null,
         description: null,
       },
