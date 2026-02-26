@@ -20,14 +20,16 @@ export default function HomeMap() {
             <h2 className={`${typography.h2} text-foreground mb-4`}>
               {t("map.title")}
             </h2>
-            <div
-              className={`flex flex-col items-center justify-center gap-1 ${typography.body} text-muted-foreground`}
-            >
-              <div className="flex items-center gap-2">
+            <div className="space-y-3">
+              <div
+                className={`flex items-center justify-center gap-2 ${typography.body} text-muted-foreground`}
+              >
                 <MapPin className={`w-5 h-5 ${components.icon.accent}`} />
                 <span>{CONTACT.address.full}</span>
               </div>
-              <span className="text-sm">VAT: {CONTACT.address.vat}</span>
+              <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                <span>VAT: {CONTACT.address.vat}</span>
+              </div>
             </div>
           </div>
         </FadeIn>

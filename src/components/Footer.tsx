@@ -14,6 +14,7 @@ import {
   Youtube,
   ChevronUp,
   ArrowRight,
+  FileText,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CONTACT, WORKING_HOURS, COMPANY } from "@/lib/constants";
@@ -145,10 +146,16 @@ export default function Footer() {
                   {CONTACT.address.street}
                   <br />
                   {CONTACT.address.postalCode} {CONTACT.address.city}
-                  <br />
-                  VAT: {CONTACT.address.vat}
                 </span>
               </a>
+              <div className="flex items-start gap-3 p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors text-sm group">
+                <div className="w-9 h-9 rounded-lg bg-accent/20 flex items-center justify-center group-hover:bg-accent/30 transition-colors shrink-0">
+                  <FileText className="w-4 h-4 text-accent" />
+                </div>
+                <span className="text-white/80 group-hover:text-white transition-colors">
+                  VAT: {CONTACT.address.vat}
+                </span>
+              </div>
             </div>
           </div>
 

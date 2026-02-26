@@ -61,7 +61,7 @@ export default function KontaktPage() {
         titleKey: "info.address",
         content: CONTACT.address.street,
         href: CONTACT.maps.directionsUrl,
-        description: `${CONTACT.address.postalCode} ${CONTACT.address.city}, ${CONTACT.address.country}\nVAT: ${CONTACT.address.vat}`,
+        description: `${CONTACT.address.postalCode} ${CONTACT.address.city}, ${CONTACT.address.country}`,
       },
       {
         icon: Clock,
@@ -69,6 +69,13 @@ export default function KontaktPage() {
         content: `${WORKING_HOURS.weekdays.label}: ${WORKING_HOURS.weekdays.open} - ${WORKING_HOURS.weekdays.close}`,
         href: null,
         description: `${WORKING_HOURS.saturday.label}: ${WORKING_HOURS.saturday.open} - ${WORKING_HOURS.saturday.close}`,
+      },
+      {
+        icon: Euro,
+        titleKey: "info.vat",
+        content: CONTACT.address.vat,
+        href: null,
+        description: null,
       },
     ],
     [],
