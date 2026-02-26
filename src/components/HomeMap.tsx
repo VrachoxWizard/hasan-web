@@ -27,7 +27,7 @@ export default function HomeMap() {
                 <MapPin className={`w-5 h-5 ${components.icon.accent}`} />
                 <span>{CONTACT.address.full}</span>
               </div>
-              <span className="text-sm">OIB: {CONTACT.address.vat}</span>
+              <span className="text-sm">VAT: {CONTACT.address.vat}</span>
             </div>
           </div>
         </FadeIn>

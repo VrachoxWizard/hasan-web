@@ -61,7 +61,7 @@ export default function KontaktPage() {
         titleKey: "info.address",
         content: CONTACT.address.street,
         href: CONTACT.maps.directionsUrl,
-        description: `${CONTACT.address.postalCode} ${CONTACT.address.city}, ${CONTACT.address.country}\nOIB: ${CONTACT.address.vat}`,
+        description: `${CONTACT.address.postalCode} ${CONTACT.address.city}, ${CONTACT.address.country}\nVAT: ${CONTACT.address.vat}`,
       },
       {
         icon: Clock,
