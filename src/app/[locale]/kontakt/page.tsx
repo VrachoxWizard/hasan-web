@@ -61,7 +61,7 @@ export default function KontaktPage() {
         titleKey: "info.address",
         content: CONTACT.address.street,
         href: CONTACT.maps.directionsUrl,
-        description: `${CONTACT.address.postalCode} ${CONTACT.address.city}, ${CONTACT.address.country}`,
+        description: `${CONTACT.address.postalCode} ${CONTACT.address.city}, ${CONTACT.address.country}\nOIB: ${CONTACT.address.vat}`,
       },
       {
         icon: Clock,
@@ -71,7 +71,7 @@ export default function KontaktPage() {
         description: `${WORKING_HOURS.saturday.label}: ${WORKING_HOURS.saturday.open} - ${WORKING_HOURS.saturday.close}`,
       },
     ],
-    []
+    [],
   );
 
   const budgetOptions = useMemo(
@@ -82,7 +82,7 @@ export default function KontaktPage() {
       { value: "40000-60000", labelKey: "budget.40kTo60k" },
       { value: "preko-60000", labelKey: "budget.over60k" },
     ],
-    []
+    [],
   );
 
   const partnerBenefits = useMemo(
@@ -93,7 +93,7 @@ export default function KontaktPage() {
       t("info.benefits.delivery"),
       t("info.benefits.support"),
     ],
-    [t]
+    [t],
   );
   const [formData, setFormData] = useState({
     ime: "",

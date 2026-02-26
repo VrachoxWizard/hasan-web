@@ -13,6 +13,7 @@ export const CONTACT = {
     postalCode: "49243",
     country: "Hrvatska",
     full: "Ulica Milana Prpića 120, 49243 Oroslavje, Hrvatska",
+    vat: "HR88152951682",
   },
   whatsapp: {
     number: "385991663776",

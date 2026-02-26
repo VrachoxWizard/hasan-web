@@ -19,6 +19,7 @@ export function OrganizationJsonLd() {
     telephone: CONTACT.phone,
     email: CONTACT.email,
     foundingDate: COMPANY.founded.toString(),
+    vatID: CONTACT.address.vat,
     address: {
       "@type": "PostalAddress",
       streetAddress: CONTACT.address.street,

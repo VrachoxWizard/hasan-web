@@ -145,6 +145,8 @@ export default function Footer() {
                   {CONTACT.address.street}
                   <br />
                   {CONTACT.address.postalCode} {CONTACT.address.city}
+                  <br />
+                  OIB: {CONTACT.address.vat}
                 </span>
               </a>
             </div>
